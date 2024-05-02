@@ -1,0 +1,10 @@
+DECLARE
+NUM1 NUMBER :=1;
+
+BEGIN
+    LOOP
+    DBMS_OUTPUT.PUT_LINE(NUM1); --출력
+    NUM1 := NUM1+1; --NUM = NUM +1
+    EXIT WHEN NUM1 >10; --NUM1이 10보다 크면 LOOP종료
+    END LOOP;
+END;
