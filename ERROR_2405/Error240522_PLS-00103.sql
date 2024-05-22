@@ -12,3 +12,6 @@ AS
          WHERE 1=1;
 
     END;
+  -- 해결방법 : PROCEDURE, END 추가.  
+  END ;
+/    
