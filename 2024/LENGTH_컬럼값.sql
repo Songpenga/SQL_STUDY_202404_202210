@@ -1,0 +1,1 @@
+select length(컬럼) as lg, lengthb(convert(컬럼,'KO16MSWIN949')) as lgb from 테이블명 a group by 컬럼 having length(컬럼) = max(length(컬럼)) order by lg desc;
